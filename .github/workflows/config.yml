@@ -11,7 +11,7 @@ jobs:
        python-version: 3.8 
     - name: Install dependencies 
       run: | 
-       pip inlstall pytest 
+       pip install pytest 
     - name: Test with pytest 
       run: | 
           pytest 
